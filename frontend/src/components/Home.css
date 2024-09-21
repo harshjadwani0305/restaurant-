@@ -1,0 +1,97 @@
+/* Container for the entire home page */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header section with restaurant name and nav links */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .restaurant-name {
+    font-size: 2rem;
+    font-family: 'Georgia', serif;
+    color: #FFD700; /* Golden color */
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50; /* Green */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #45a049;
+  }
+  
+  /* Carousel styling */
+  .carousel-container img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h3 {
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .carousel-caption p {
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  /* About Us section */
+  .about-us-section {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+  }
+  
+  .about-us-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FFD700;
+  }
+  
+  .about-us-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
